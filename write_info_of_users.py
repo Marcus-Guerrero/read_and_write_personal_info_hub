@@ -18,6 +18,15 @@ with open("personal_info.txt", "a") as user_info: #It should be justified as app
         user_info.write(f"Fullname: {full_name}\nAge: {age}\nAddress: {address}\nBirthday: {birthday}\nCurrent Hobbies: {hobbies}\n")
         user_info.write(" \n")
         
-#Place another input statement asking users whether they want to enter more data or not
-#Create an if condition for the reentry input
-#End all task if the user enters no
+        #Place another input statement asking users whether they want to enter more data or not
+        reentry= input("Would you like to store another set of data (y or n)? ")
+
+        #Create an if condition for the reentry input
+        while reentry != "y" and reentry != "n":
+            print("Wrong format, please try again")
+            reentry = input("Would you like to store another set of data (y or n)? ")
+
+        if reentry == "y":
+            print ("Please input a new set of data")
+        else: #End all task if the user enters no
+            break
