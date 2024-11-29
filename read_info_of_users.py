@@ -9,5 +9,11 @@ with open("personal_info.txt", "r") as user_info:
 
     #Split the data into separate lists
     personal_set= data.split(" \n")
-#Create a loop for indicating whether the name is in the text file
-#Create an if condition for the data to be extracted
+    #Create a loop for indicating whether the name is in the text file
+    for person in personal_set:
+        if locator in person: #Create an if condition for the data to be extracted
+            print("Is this who you're looking for?")
+            print(person)
+            break
+    else:
+        print(f"The user {locator} does not exist in the directory")
