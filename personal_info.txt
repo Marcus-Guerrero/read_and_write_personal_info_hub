@@ -1,0 +1,24 @@
+Fullname: Charles Babbage
+Age: 18
+Birthday: March 14, 2005
+Address: Tokyo, Japan
+Hobbies: Karate
+ 
+Fullname: Gregory Hafton
+Age: 18
+Birthday: October 24, 2005
+Address: Tokyo, Japan
+Hobbies: Reading
+ 
+Fullname: Max Clifford
+Age: 17
+Birthday: November 13, 2005
+Address: Berlin, Germany
+Hobbies: Tennis
+ 
+Fullname: Gregory Morty
+Age: 19
+Birthday: September 23, 2004
+Address: New Orleans, USA
+Hobbies: Skateboarding
+ 
